@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Bouncing Ball Game</h1> 
+        <ul>
+            <li class="active" id="inverse_u_shape">inverse u-shape</li>
+            <li id="inverse_c_shape">inverse c-shape</li>
+            <li id="u_shape">u-shape</li>
+            <li id="c_shape">c-shape</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="game-container">
+            <ul class="game-board">
+               <li>Scores: <span id="scores">0</span></li> 
+               <li>Lives: <span id="lives">5</span></li> 
+               <li>Timer: <span id="timer">0</span><small>s</small></li> 
+            </ul>
+
+            <canvas id="canvas" class="inverse-u-shape"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
